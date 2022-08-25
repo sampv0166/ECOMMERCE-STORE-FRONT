@@ -3,20 +3,22 @@ import Announcement from '../components/Announcement'
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
 import Products from '../components/Products'
+import Login from './Login'
 
 const Home = () => {
   return (
     <div>
-    <Announcement/>
+    {/* <Announcement/>
     <Navbar/>
     <Slider/> 
-   <Products/>
+   <Products/> */}
    {/* <Footer/> */}
   {/*
     <Categories/>
     <Newsletter/>
     <Footer/>
   */}
+  <Login/>
     </div>
   )
 }

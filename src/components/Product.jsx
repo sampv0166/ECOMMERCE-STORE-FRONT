@@ -1,6 +1,8 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
+import { useDispatch } from 'react-redux';
 import styled  from 'styled-components'
+import { addProduct } from '../redux/cartRedux';
 
 const Info = styled.div`
   opacity: 0;
@@ -65,6 +67,12 @@ const Icon = styled.div`
 `;
 
 const Product = ({product}) => {
+
+    // const dispatch = useDispatch();
+    // const handleClick = () => {
+    //     dispatch(addProduct({product, quantity}));
+    // }
+
   return (
     <Container>
         <Circle/>
